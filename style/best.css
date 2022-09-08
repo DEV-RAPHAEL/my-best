@@ -42,7 +42,7 @@ ul li a{
 ul li a:hover{
     color:grey;
 }
-li button{
+li button, .cta{
     height: 40px;
     width: 140px;
     background-color: #482d20;
@@ -59,4 +59,38 @@ li button:hover{
 }
 li button a{
     color: white;
+}
+.cta{
+    margin: 0;
+}
+.cta a{
+    color: white;
+}
+.text h1{
+    color: #482d20;
+}
+.hero{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    max-width: 40%;
+    font-family: serif;
+}
+.images{
+    max-width: 40%;
+}
+.images img{
+    border-radius: 20px;
+    height: 70vh;
+    margin-top: 40px;
+}
+.text h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.text .second{
+    margin-bottom: 30px;
 }
